@@ -18,6 +18,9 @@ h1 {
   font-weight: 400;
   padding: 0;
 }
+small {
+  font-size: 10px;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -25,7 +28,7 @@ ul {
   overflow: hidden;
   position: fixed;
   font-size: 16px;
-  top: 70px;
+  top: 72px;
   right: 20px;
 }
 li {
@@ -35,38 +38,50 @@ li a {
   display: inline-block;
   color: rgb(0, 0, 0);
   text-decoration: none;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 .profileContent {
-  display: flex;
   padding: 146px 0 20px 20px;
 }
 .key-card {
-  max-width: 300px;
-  max-height: 360px;
+  max-width: 200px;
+  max-height: 260px;
   border-radius: 6px;
+  float: left;
+  margin: 0 20px 20px 0;
   transition: all 200ms ease-in-out;
 }
 .key-card:hover {
   transform: scale(1.1);
 }
-h2 {
+.profile-full {
+  padding: 0 20px 0 0;
+}
+.profile {
   font-size: 20px;
   font-weight: 400;
-  padding: 0 0 0 20px;
-  margin-top: 0;
+  margin: 0;
 }
 .profile-info {
   font-size: 10px;
+  margin: 0;
+  text-align: justify;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  border-top: 1px solid rgb(0, 0, 0, 0.4);
+  padding-top: 20px;
 }
 .grid {
   display: grid;
   grid-template-columns: repeat(5, 2fr);
-  grid-gap: 10px;
-  margin: 10px;
+  padding: 10px 20px 30px 10px;
 }
 .grid img {
-  width: 30%;
+  width: 40px;
   object-fit: contain;
   aspect-ratio: 14/10;
   transition: all 200ms ease-in-out;
@@ -82,4 +97,8 @@ h2 {
 a {
   color: rgb(0, 0, 0);
   text-decoration: none;
+}
+.gridTwo {
+  grid-template-columns: repeat(2, 2fr);
+  padding: 0 120px;
 }
