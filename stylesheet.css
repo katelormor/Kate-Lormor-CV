@@ -1,5 +1,4 @@
 body {
-  background-color: #dbddcf;
   font-family: "MuseoModerno", sans-serif;
   font-weight: 300;
 }
@@ -40,7 +39,7 @@ li a {
   text-decoration: none;
   padding: 0 10px;
 }
-.profileContent {
+.pageContent {
   padding: 146px 0 20px 20px;
 }
 .key-card {
@@ -54,11 +53,17 @@ li a {
 .key-card:hover {
   transform: scale(1.1);
 }
-.profile-full {
+.banner-space {
   padding: 0 20px 0 0;
 }
-.profile {
-  font-size: 20px;
+h2 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 400;
+  margin: 0;
+}
+h3 {
+  font-size: 30px;
   font-weight: 400;
   margin: 0;
 }
@@ -67,7 +72,7 @@ li a {
   margin: 0;
   text-align: justify;
 }
-h3 {
+h4 {
   font-size: 20px;
   font-weight: 400;
   margin: 0;
