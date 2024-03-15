@@ -107,3 +107,42 @@ a {
   grid-template-columns: repeat(2, 2fr);
   padding: 0 120px;
 }
+h5 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 40px 0 0 0;
+}
+.experienceGrid {
+  display: grid;
+  padding: 10px 20px 10px 10px;
+  text-align: center;
+  margin: 0;
+}
+.jimmonsGrid {
+  grid-template-columns: repeat(1, 2fr);
+}
+.altusGrid {
+  grid-template-columns: repeat(3, 2fr);
+}
+.experience-content {
+  text-align: justify;
+  padding: 0 40px;
+  margin: 10px;
+  font-size: 14px;
+}
+.stadiumGrid {
+  grid-template-columns: repeat(2, 2fr);
+}
+.stadium-paragraph {
+  text-align: justify;
+  padding: 0 40px 0 60px;
+  margin: 10px;
+  font-size: 14px;
+}
+.tamakwaGrid {
+  grid-template-columns: repeat(1, 2fr);
+}
+.meribelGrid {
+  grid-template-columns: repeat(1, 2fr);
+}
