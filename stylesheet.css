@@ -99,6 +99,9 @@ h4 {
   font-size: 12px;
   text-align: center;
 }
+.pageEnd {
+  padding-bottom: 30px;
+}
 a {
   color: rgb(0, 0, 0);
   text-decoration: none;
@@ -125,6 +128,34 @@ h5 {
 .sheCodes-content {
   font-size: 10px;
 }
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  text-align: center;
+}
+.projectGrid img {
+  width: 40px;
+  object-fit: contain;
+  aspect-ratio: 14/10;
+  transition: all 200ms ease-in-out;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.projectGrid img:hover {
+  transform: scale(1.4);
+}
+.projectImgs {
+  max-width: 300px;
+  max-height: 200px;
+  border-radius: 6px;
+  float: right;
+  margin: 0 20px;
+  transition: all 200ms ease-in-out;
+}
+.projectImgs:hover {
+  transform: scale(1.1);
+}
+
 .jimmonsGrid {
   grid-template-columns: repeat(1, 2fr);
 }
