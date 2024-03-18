@@ -40,7 +40,7 @@ li a {
   padding: 0 10px;
 }
 .pageContent {
-  padding: 146px 0 20px 20px;
+  padding: 146px 20px 10px 20px;
 }
 .key-card {
   max-width: 200px;
@@ -119,8 +119,23 @@ h5 {
   text-align: center;
   margin: 0;
 }
+.stAnothonysGrid {
+  grid-template-columns: repeat(2, 3fr);
+}
+.sheCodes-content {
+  font-size: 10px;
+}
 .jimmonsGrid {
   grid-template-columns: repeat(1, 2fr);
+}
+.education-content {
+  text-align: justify;
+  padding: 0 40px;
+  margin: 10px;
+  font-size: 12px;
+}
+.grade-results {
+  font-size: 10px;
 }
 .altusGrid {
   grid-template-columns: repeat(3, 2fr);
@@ -129,7 +144,7 @@ h5 {
   text-align: justify;
   padding: 0 40px;
   margin: 10px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .stadiumGrid {
   grid-template-columns: repeat(2, 2fr);
@@ -138,11 +153,18 @@ h5 {
   text-align: justify;
   padding: 0 40px 0 60px;
   margin: 10px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .tamakwaGrid {
   grid-template-columns: repeat(1, 2fr);
 }
 .meribelGrid {
   grid-template-columns: repeat(1, 2fr);
+}
+.experience-dates {
+  font-size: 12px;
+}
+.experience-dates {
+  font-size: 12px;
+  color: rgb(0, 0, 0, 0.6);
 }
